@@ -62,10 +62,6 @@ KakunaPicBackSW::      INCBIN "gfx/pokemon/back_sw/kakunab.pic"
 
 SECTION "Pics 2", ROMX, BANK[PICS_2]
 
-GrowlithePicFront::   INCBIN "gfx/pokemon/front/growlithe.pic"
-GrowlithePicBackSW::  INCBIN "gfx/pokemon/back_sw/growlitheb.pic"
-OnixPicFront::        INCBIN "gfx/pokemon/front/onix.pic"
-OnixPicBackSW::       INCBIN "gfx/pokemon/back_sw/onixb.pic"
 OnixPicFrontAlt::     INCBIN "gfx/pokemon/front_alt/onix.pic"
 FearowPicFront::      INCBIN "gfx/pokemon/front/fearow.pic"
 FearowPicBackSW::     INCBIN "gfx/pokemon/back_sw/fearowb.pic"
@@ -164,12 +160,6 @@ ZubatPicBackSW::      INCBIN "gfx/pokemon/back_sw/zubatb.pic"
 
 SECTION "Pics 4", ROMX, BANK[PICS_4]
 
-DodrioPicFront::       INCBIN "gfx/pokemon/front/dodrio.pic"
-DodrioPicBackSW::      INCBIN "gfx/pokemon/back_sw/dodriob.pic"
-DugtrioPicFront::      INCBIN "gfx/pokemon/front/dugtrio.pic"
-DugtrioPicBackSW::     INCBIN "gfx/pokemon/back_sw/dugtriob.pic"
-VenomothPicFront::     INCBIN "gfx/pokemon/front/venomoth.pic"
-VenomothPicBackSW::    INCBIN "gfx/pokemon/back_sw/venomothb.pic"
 CaterpiePicFront::     INCBIN "gfx/pokemon/front/caterpie.pic"
 CaterpiePicBackSW::    INCBIN "gfx/pokemon/back_sw/caterpieb.pic"
 ButterfreePicFront::   INCBIN "gfx/pokemon/front/butterfree.pic"
@@ -221,20 +211,6 @@ PidgeotPicBack::       INCBIN "gfx/pokemon/back/pidgeotb.pic"
 
 SECTION "Pics 5", ROMX, BANK[PICS_5]
 
-BulbasaurPicFront::    INCBIN "gfx/pokemon/front/bulbasaur.pic"
-BulbasaurPicBackSW::   INCBIN "gfx/pokemon/back_sw/bulbasaurb.pic"
-BulbasaurPicFrontAlt::  INCBIN "gfx/pokemon/front_alt/bulbasaur.pic"
-VenusaurPicFront::     INCBIN "gfx/pokemon/front/venusaur.pic"
-VenusaurPicBackSW::    INCBIN "gfx/pokemon/back_sw/venusaurb.pic"
-SeakingPicFront::      INCBIN "gfx/pokemon/front/seaking.pic"
-SeakingPicBackSW::     INCBIN "gfx/pokemon/back_sw/seakingb.pic"
-PonytaPicFront::       INCBIN "gfx/pokemon/front/ponyta.pic"
-PonytaPicBackSW::      INCBIN "gfx/pokemon/back_sw/ponytab.pic"
-RapidashPicFront::     INCBIN "gfx/pokemon/front/rapidash.pic"
-RapidashPicBackSW::    INCBIN "gfx/pokemon/back_sw/rapidashb.pic"
-RaticatePicFront::     INCBIN "gfx/pokemon/front/raticate.pic"
-RaticatePicBackSW::    INCBIN "gfx/pokemon/back_sw/raticateb.pic"
-RaticatePicFrontAlt::  INCBIN "gfx/pokemon/front_alt/raticate.pic"
 NidorinoPicFront::     INCBIN "gfx/pokemon/front/nidorino.pic"
 NidorinoPicBackSW::    INCBIN "gfx/pokemon/back_sw/nidorinob.pic"
 NidorinoPicFrontAlt::  INCBIN "gfx/pokemon/front_alt/nidorino.pic"
@@ -317,27 +293,10 @@ ChannelerPic::     INCBIN "gfx/trainers/channeler.pic"
 AgathaPic::        INCBIN "gfx/trainers/agatha.pic"
 LancePic::         INCBIN "gfx/trainers/lance.pic"
 
-MewPicFront::          INCBIN "gfx/pokemon/front/mew.pic" ; moved from bank 1
-MewPicBack::           INCBIN "gfx/pokemon/back/mewb.pic" ; moved from bank 1
-MewPicBackSW::         INCBIN "gfx/pokemon/back_sw/mewb.pic" ; moved from bank 1
-
 PidgeottoPicBack::     INCBIN "gfx/pokemon/back/pidgeottob.pic"
 
 SECTION "Pics 7", ROMX, BANK[PICS_7]
 
-ShellderPicFront::    INCBIN "gfx/pokemon/front/shellder.pic"
-ShellderPicBackSW::   INCBIN "gfx/pokemon/back_sw/shellderb.pic"
-TentacoolPicFront::   INCBIN "gfx/pokemon/front/tentacool.pic"
-TentacoolPicBackSW::  INCBIN "gfx/pokemon/back_sw/tentacoolb.pic"
-GastlyPicFront::      INCBIN "gfx/pokemon/front/gastly.pic"
-GastlyPicBackSW::     INCBIN "gfx/pokemon/back_sw/gastlyb.pic"
-ScytherPicFront::     INCBIN "gfx/pokemon/front/scyther.pic"
-ScytherPicBackSW::    INCBIN "gfx/pokemon/back_sw/scytherb.pic"
-StaryuPicFront::      INCBIN "gfx/pokemon/front/staryu.pic"
-StaryuPicBackSW::     INCBIN "gfx/pokemon/back_sw/staryub.pic"
-BlastoisePicFront::   INCBIN "gfx/pokemon/front/blastoise.pic"
-BlastoisePicFrontAlt:: INCBIN "gfx/pokemon/front_alt/blastoise.pic"
-BlastoisePicBackSW::  INCBIN "gfx/pokemon/back_sw/blastoiseb.pic"
 MankeyPicFront::      INCBIN "gfx/pokemon/front/mankey.pic"
 MankeyPicBackSW::     INCBIN "gfx/pokemon/back_sw/mankeyb.pic"
 MankeyPicFrontAlt::   INCBIN "gfx/pokemon/front_alt/mankey.pic"
@@ -376,17 +335,6 @@ MukPicBackSW::         INCBIN "gfx/pokemon/back_sw/mukb.pic"
 
 SECTION "Pics 8", ROMX, BANK[PICS_8]
 
-MachopPicFront::      INCBIN "gfx/pokemon/front/machop.pic"
-MachopPicBackSW::     INCBIN "gfx/pokemon/back_sw/machopb.pic"
-MachopPicFrontAlt::   INCBIN "gfx/pokemon/front_alt/machop.pic"
-EkansPicFront::       INCBIN "gfx/pokemon/front/ekans.pic"
-EkansPicBackSW::      INCBIN "gfx/pokemon/back_sw/ekansb.pic"
-ParasPicFront::       INCBIN "gfx/pokemon/front/paras.pic"
-ParasPicBackSW::      INCBIN "gfx/pokemon/back_sw/parasb.pic"
-PoliwhirlPicFront::   INCBIN "gfx/pokemon/front/poliwhirl.pic"
-PoliwhirlPicBackSW::  INCBIN "gfx/pokemon/back_sw/poliwhirlb.pic"
-PoliwrathPicFront::   INCBIN "gfx/pokemon/front/poliwrath.pic"
-PoliwrathPicBackSW::  INCBIN "gfx/pokemon/back_sw/poliwrathb.pic"
 WeedlePicFront::      INCBIN "gfx/pokemon/front/weedle.pic"
 WeedlePicBackSW::     INCBIN "gfx/pokemon/back_sw/weedleb.pic"
 WeezingPicFront::      INCBIN "gfx/pokemon/front/weezing.pic"
@@ -626,6 +574,66 @@ LavaSuitBattlePicSW:: INCBIN "gfx/player/lava_suitb_big.pic"
 LavaSuitBattlePic::   INCBIN "gfx/player/lava_suitb.pic"
 ScubaSuitBattlePicSW:: INCBIN "gfx/player/scuba_suitb_big.pic"
 ScubaSuitBattlePic::   INCBIN "gfx/player/scuba_suitb.pic"
+
+SECTION "Pics 12", ROMX
+
+GrowlithePicFront::   INCBIN "gfx/pokemon/front/growlithe.pic"
+GrowlithePicBackSW::  INCBIN "gfx/pokemon/back_sw/growlitheb.pic"
+OnixPicFront::        INCBIN "gfx/pokemon/front/onix.pic"
+OnixPicBackSW::       INCBIN "gfx/pokemon/back_sw/onixb.pic"
+DodrioPicFront::       INCBIN "gfx/pokemon/front/dodrio.pic"
+DodrioPicBackSW::      INCBIN "gfx/pokemon/back_sw/dodriob.pic"
+DugtrioPicFront::      INCBIN "gfx/pokemon/front/dugtrio.pic"
+DugtrioPicBackSW::     INCBIN "gfx/pokemon/back_sw/dugtriob.pic"
+VenomothPicFront::     INCBIN "gfx/pokemon/front/venomoth.pic"
+VenomothPicBackSW::    INCBIN "gfx/pokemon/back_sw/venomothb.pic"
+MewPicFront::          INCBIN "gfx/pokemon/front/mew.pic" 
+MewPicBack::           INCBIN "gfx/pokemon/back/mewb.pic" 
+MewPicBackSW::         INCBIN "gfx/pokemon/back_sw/mewb.pic" 
+MachopPicFront::      INCBIN "gfx/pokemon/front/machop.pic"
+MachopPicBackSW::     INCBIN "gfx/pokemon/back_sw/machopb.pic"
+MachopPicFrontAlt::   INCBIN "gfx/pokemon/front_alt/machop.pic"
+EkansPicFront::       INCBIN "gfx/pokemon/front/ekans.pic"
+EkansPicBackSW::      INCBIN "gfx/pokemon/back_sw/ekansb.pic"
+ParasPicFront::       INCBIN "gfx/pokemon/front/paras.pic"
+ParasPicBackSW::      INCBIN "gfx/pokemon/back_sw/parasb.pic"
+
+SECTION "Pics 13", ROMX
+
+BulbasaurPicFront::    INCBIN "gfx/pokemon/front/bulbasaur.pic"
+BulbasaurPicBackSW::   INCBIN "gfx/pokemon/back_sw/bulbasaurb.pic"
+BulbasaurPicFrontAlt::  INCBIN "gfx/pokemon/front_alt/bulbasaur.pic"
+VenusaurPicFront::     INCBIN "gfx/pokemon/front/venusaur.pic"
+VenusaurPicBackSW::    INCBIN "gfx/pokemon/back_sw/venusaurb.pic"
+SeakingPicFront::      INCBIN "gfx/pokemon/front/seaking.pic"
+SeakingPicBackSW::     INCBIN "gfx/pokemon/back_sw/seakingb.pic"
+PonytaPicFront::       INCBIN "gfx/pokemon/front/ponyta.pic"
+PonytaPicBackSW::      INCBIN "gfx/pokemon/back_sw/ponytab.pic"
+RapidashPicFront::     INCBIN "gfx/pokemon/front/rapidash.pic"
+RapidashPicBackSW::    INCBIN "gfx/pokemon/back_sw/rapidashb.pic"
+RaticatePicFront::     INCBIN "gfx/pokemon/front/raticate.pic"
+RaticatePicBackSW::    INCBIN "gfx/pokemon/back_sw/raticateb.pic"
+RaticatePicFrontAlt::  INCBIN "gfx/pokemon/front_alt/raticate.pic"
+PoliwhirlPicFront::   INCBIN "gfx/pokemon/front/poliwhirl.pic"
+PoliwhirlPicBackSW::  INCBIN "gfx/pokemon/back_sw/poliwhirlb.pic"
+PoliwrathPicFront::   INCBIN "gfx/pokemon/front/poliwrath.pic"
+PoliwrathPicBackSW::  INCBIN "gfx/pokemon/back_sw/poliwrathb.pic"
+
+SECTION "Pics 14", ROMX
+
+ShellderPicFront::    INCBIN "gfx/pokemon/front/shellder.pic"
+ShellderPicBackSW::   INCBIN "gfx/pokemon/back_sw/shellderb.pic"
+TentacoolPicFront::   INCBIN "gfx/pokemon/front/tentacool.pic"
+TentacoolPicBackSW::  INCBIN "gfx/pokemon/back_sw/tentacoolb.pic"
+GastlyPicFront::      INCBIN "gfx/pokemon/front/gastly.pic"
+GastlyPicBackSW::     INCBIN "gfx/pokemon/back_sw/gastlyb.pic"
+ScytherPicFront::     INCBIN "gfx/pokemon/front/scyther.pic"
+ScytherPicBackSW::    INCBIN "gfx/pokemon/back_sw/scytherb.pic"
+StaryuPicFront::      INCBIN "gfx/pokemon/front/staryu.pic"
+StaryuPicBackSW::     INCBIN "gfx/pokemon/back_sw/staryub.pic"
+BlastoisePicFront::   INCBIN "gfx/pokemon/front/blastoise.pic"
+BlastoisePicFrontAlt:: INCBIN "gfx/pokemon/front_alt/blastoise.pic"
+BlastoisePicBackSW::  INCBIN "gfx/pokemon/back_sw/blastoiseb.pic"
 
 
 SECTION "Type Icons", ROMX

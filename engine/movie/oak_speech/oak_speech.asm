@@ -112,7 +112,7 @@ ENDC
 	rst _PrintText
 	call GBFadeOutToWhite
 	call ClearScreen
-	ld a, NIDORINO
+	ld a, MEW
 	ld [wCurSpecies], a
 	ld [wCurPartySpecies], a
 	call GetMonHeader
@@ -211,7 +211,7 @@ OakSpeechText2:
 	text_far _OakSpeechText2A
 	; BUG: The cry played does not match the sprite displayed. PureRGBnote: FIXED: Plays nidorino's cry now.
 	text_asm
-	ld a, NIDORINO
+	ld a, MEW
 	call PlayCry
 	call DisplayTextPromptButton
 	ld hl, .2b
