@@ -168,7 +168,7 @@ MonsterNames::
 	db "RATICATE@@"
 	db "NIDORINO@@"
 	db "NIDORINA@@"
-	db "GEODUDE@@@"
+	db "GEOGIRL@@@"
 	db "PORYGON@@@"
 	db "AERODACTYL"
 	db "ONIX@@@@@@"

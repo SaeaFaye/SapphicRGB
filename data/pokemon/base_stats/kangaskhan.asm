@@ -1,9 +1,9 @@
 	db DEX_KANGASKHAN ; pokedex id
 
-	db 115,  95,  80,  90,  40
+	db 115,  95,  80,  90,  50
 	;   hp  atk  def  spd  spc
 
-	db NORMAL, NORMAL ; type
+	db NORMAL, GROUND ; type
 	db 65 ; catch rate
 	db 175 ; base exp
 
