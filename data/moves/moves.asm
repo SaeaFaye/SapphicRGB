@@ -13,7 +13,7 @@ ENDM
 Moves:
 ; Characteristics of each move.
 	table_width MOVE_LENGTH
-	move POUND,        NO_ADDITIONAL_EFFECT,        40, NORMAL,       100, 35
+	move POUND,        NO_ADDITIONAL_EFFECT,        40, FAIRY,        100, 35 ; PIXIE DUST
 	move KARATE_CHOP,  NO_ADDITIONAL_EFFECT,        50, FIGHTING,     100, 25 ; high crit ratio
 	move DOUBLESLAP,   TWO_TO_FIVE_ATTACKS_EFFECT,  15, NORMAL,        85, 10
 	move COMET_PUNCH,  NO_ADDITIONAL_EFFECT,        60, FIGHTING,     100, 15 ; priority move
@@ -24,7 +24,7 @@ Moves:
 	move THUNDERPUNCH, PARALYZE_SIDE_EFFECT1,       75, ELECTRIC,     100, 15
 	move SCRATCH,      NO_ADDITIONAL_EFFECT,        40, NORMAL,       100, 35
 	move VICEGRIP,     PARALYZE_SIDE_EFFECT2,       75, BUG,          100, 30
-	move GUILLOTINE,   OHKO_EFFECT,                  1, BUG,           30,  5
+	move GUILLOTINE,   FLINCH_SIDE_EFFECT1,         80, DARK,         100, 20 ; ABUSE
 	move RAZOR_WIND,   HEAL_EFFECT,                  0, FLYING,       100, 10 ; -> ROOST
 	move SWORDS_DANCE, ATTACK_UP2_EFFECT,            0, FIRE,         100, 30
 	move CUT,          NO_ADDITIONAL_EFFECT,        70, BUG,          100, 30
@@ -44,7 +44,7 @@ Moves:
 	move HEADBUTT,     FLINCH_SIDE_EFFECT2,         75, NORMAL,       100, 15
 	move HORN_ATTACK,  NO_ADDITIONAL_EFFECT,        65, ROCK,         100, 25 
 	move FURY_ATTACK,  ATTACK_TWICE_EFFECT,         40, FLYING,       100, 20
-	move HORN_DRILL,   OHKO_EFFECT,                  1, NORMAL,        30,  5
+	move HORN_DRILL,   NO_ADDITIONAL_EFFECT,        60, STEEL,        100, 25 ; IRON SLAP
 	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, NORMAL,       100, 35
 	move BODY_SLAM,    PARALYZE_SIDE_EFFECT2,       85, NORMAL,       100, 15
 	move WRAP,         TRAPPING_EFFECT,             22, NORMAL,        85, 15
@@ -56,7 +56,7 @@ Moves:
 	move TWINEEDLE,    TWINEEDLE_EFFECT,            50, BUG,          100, 20 ; hits twice, 20% chance of poison
 	move PIN_MISSILE,  TWO_TO_FIVE_ATTACKS_EFFECT,  18, BUG,          100, 20
 	move LEER,         DEFENSE_DOWN1_EFFECT,         0, NORMAL,       100, 30
-	move BITE,         FLINCH_SIDE_EFFECT1,         60, NORMAL,       100, 25
+	move BITE,         FLINCH_SIDE_EFFECT1,         60, DARK,         100, 25 ; TURNED DARK
 	move GROWL,        ATTACK_DOWN1_EFFECT,          0, NORMAL,       100, 40
 	move ROAR,         ATTACK_DOWN_SIDE_EFFECT,     40, DRAGON,       100, 20
 	move SING,         SLEEP_EFFECT,                 0, NORMAL,        55, 15
@@ -102,7 +102,7 @@ Moves:
 	move THUNDER,      PARALYZE_SIDE_EFFECT1,      120, ELECTRIC,      90, 10
 	move ROCK_THROW,   NO_ADDITIONAL_EFFECT,        50, ROCK,         100, 15
 	move EARTHQUAKE,   NO_ADDITIONAL_EFFECT,       100, GROUND,       100, 10
-	move FISSURE,      OHKO_EFFECT,                  1, GROUND,        30,  5
+	move FISSURE,      ATTACK_DOWN1_EFFECT,         80, FAIRY,        100, 15 ; PIXIE GLEAM
 	move DIG,          CHARGE_EFFECT,               80, GROUND,       100, 10
 	move TOXIC,        POISON_EFFECT,                0, POISON,        90, 10
 	move CONFUSION,    CONFUSION_SIDE_EFFECT,       50, PSYCHIC_TYPE, 100, 25
@@ -129,11 +129,11 @@ Moves:
 	move HAZE,         HAZE_EFFECT,                  0, POISON,       100, 30
 	move REFLECT,      REFLECT_EFFECT,               0, ELECTRIC,     100, 20
 	move FOCUS_ENERGY, FOCUS_ENERGY_EFFECT,          0, ELECTRIC,     100, 30 
-	move BIDE,         ATTACK_DEFENSE_UP1_EFFECT,    0, NORMAL,       100, 20
-	move METRONOME,    METRONOME_EFFECT,             0, NORMAL,       100, 10 
+	move BIDE,         ATTACK_DEFENSE_UP1_EFFECT,    0, NORMAL,       100, 20 
+	move METRONOME,    DEFENSE_UP1_EFFECT,          80, STEEL,        100, 10 ; METEOR SMASH
 	move MIRROR_MOVE,  MIRROR_MOVE_EFFECT,           0, FLYING,       100, 10 ; priority move, always uses the previously used enemy move without restrictions
 	move SELFDESTRUCT, EXPLODE_RECOIL_EFFECT,      140, FIRE,         100,  5 ; high recoil normally, original instant defeat effect and 250 power / half defense at low health.
-	move EGG_BOMB,     NO_ADDITIONAL_EFFECT,       100, DRAGON,       100, 10
+	move EGG_BOMB,     NO_ADDITIONAL_EFFECT,       120, DRAGON,        85, 10 ; DRACO METEOR
 	move LICK,         PARALYZE_SIDE_EFFECT1,       35, GHOST,        100, 30
 	move SMOG,         POISON_SIDE_EFFECT2,         40, POISON,       100, 20
 	move SLUDGE,       POISON_SIDE_EFFECT2,         90, POISON,       100, 20
@@ -141,7 +141,7 @@ Moves:
 	move FIRE_BLAST,   BURN_SIDE_EFFECT2,          120, FIRE,          85,  5
 	move WATERFALL,    FLINCH_SIDE_EFFECT2,         80, WATER,        100, 15
 	move CLAMP,        TRAPPING_EFFECT,             25, WATER,         85, 15
-	move SWIFT,        SWIFT_EFFECT,                60, ICE,          100, 20 ; priority move
+	move SWIFT,        SWIFT_EFFECT,                60, ICE,          100, 20 ; priority move, SWIFT FROST
 	move SKULL_BASH,   JUMP_KICK_EFFECT,           100, ROCK,          90, 10
 	move SPIKE_CANNON, TWO_OR_THREE_ATTACKS_EFFECT, 42, ROCK,         100, 10
 	move CONSTRICT,    PARALYZE_SIDE_EFFECT2,       75, ELECTRIC,     100, 20 ; -> STATIC SNAG
@@ -152,7 +152,7 @@ Moves:
 	move GLARE,        PARALYZE_EFFECT,              0, NORMAL,       100, 30
 	move DREAM_EATER,  DREAM_EATER_EFFECT,         100, GHOST,        100, 15
 	move POISON_GAS,   POISON_SIDE_EFFECT1,         60, POISON,       100, 20 ; high critical hit ratio
-	move BARRAGE,      ATTACK_TWICE_EFFECT,         40, GHOST,        100, 20 
+	move BARRAGE,      ATTACK_TWICE_EFFECT,         40, GHOST,        100, 20 ; SPECTRE ORB
 	move LEECH_LIFE,   DRAIN_HP_EFFECT,             70, BUG,          100, 15
 	move LOVELY_KISS,  SLEEP_EFFECT,                 0, PSYCHIC_TYPE,  75, 10
 	move SKY_ATTACK,   RECOIL_EFFECT,          	   130, FLYING,       100, 10

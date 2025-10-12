@@ -1,9 +1,9 @@
 ; PureRGBnote: ADDED: text pointers for the descriptions that show up in the movedex.
 
 _PoundDexEntry::
-	text "Pounds the foe"
-	next "with a leg, tail"
-	next "or hand."
+	text "Spreads fairy"
+	next "dust. Whimsical"
+	next "and arcane."
 	; fall through
 _GenericNoAdditionalEffectText::
 	bage "No additional"
@@ -120,19 +120,11 @@ _Generic30PercentParalysisText::
 	dex
 
 _GuillotineDexEntry::
-	text "Giant claws"
-	next "violently crush"
-	next "the <opponent>."
-	; fall through
-_GenericOHKOText::
-	bage "Always KOs the"
-	next "<opponent>, but"
-	next "misses a lot."
+	text "A sadistic"
+	next "strike causing"
+	next "great pain."
 
-	bage "Doesn't work on"
-	next "<opponent>s with"
-	next "higher SPEED"
-	dex
+	text_jump _Generic30PercentFlinchText
 
 _RazorWindDexEntry::
 	text "The <user> lands"
@@ -306,11 +298,11 @@ _FuryAttackDexEntry::
 	text_jump _GenericHitsTwiceText
 
 _HornDrillDexEntry::
-	text "Violently drills"
-	next "into foe with a"
-	next "razor-sharp horn.@"
+	text "Strikes the foe"
+	next "with a hard,"
+	next "metallic part.@"
 
-	text_jump _GenericOHKOText
+	text_jump _GenericNoAdditionalEffectText
 
 _TackleDexEntry::
 	text "Charges the foe"
@@ -915,14 +907,14 @@ _EarthquakeDexEntry::
 	text_jump _GenericNoAdditionalEffectText
 
 _FissureDexEntry::
-	text "The <user> creates"
-	next "a wide split in"
-	next "the earth's crust"
+	text "Overwhelms with"
+	next "intense magic"
+	next "and emotion."
 
-	bage "that swallows the"
-	next "foe completely.@"
-
-	text_jump _GenericOHKOText
+	bage "Lowers <opponent>'s"
+	next "ATTACK."
+	next "(-1 ATTACK)"
+	dex
 
 _DigDexEntry::
 	text "Digs underground"
@@ -1239,13 +1231,13 @@ _BideDexEntry::
 	dex
 
 _MetronomeDexEntry::
-	text "The <user> waves"
-	next "a finger, and"
-	next "otherworldly"
+	text "Crashes into the"
+	next "foe with meteoric"
+	next "determination."
 
-	bage "magic causes a"
-	next "random attack to"
-	next "suddenly occur"
+	bage "Raises <user>'s"
+	next "DEFENSE."
+	next "(+1 DEFENSE)"
 	dex
 
 _MirrorMoveDexEntry::
@@ -1291,13 +1283,9 @@ _GenericExplodeDexEntry::
 	dex
 
 _EggBombDexEntry::
-	text "A bomb in an"
-	next "egg or an egg-"
-	next "shaped bomb is"
-
-	bage "hurled at the"
-	next "<opponent>, causing"
-	next "an explosion.@"
+	text "Calls down a"
+	next "meteor of raw"
+	next "draconic might."
 
 	text_jump _GenericNoAdditionalEffectText
 
@@ -1501,13 +1489,9 @@ _PoisonGasDexEntry::
 	text_jump _Generic20PercentPoisonText
 
 _BarrageDexEntry::
-	text "Hurls orbs of"
+	text "Lashes out with"
 	next "strange energy"
 	next "at the foe."
-
-	bage "Where these"
-	next "ghostly orbs come"
-	next "from is unknown.@"
 
 	text_jump _GenericHitsTwiceText
 

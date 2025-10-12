@@ -222,6 +222,7 @@ RhydonEvosMoves:
 	db 47, DEFENSE_CURL
 	db 52, MEGA_KICK
 	db 56, HYPER_BEAM
+	db 60, METRONOME ; METEOR_SMASH
 	db 0
 
 KangaskhanEvosMoves:
@@ -254,7 +255,7 @@ NidoranMEvosMoves:
 	db 31, FURY_ATTACK
 	db 37, COUNTER ;DRAIN PUNCH
 	db 43, EARTHQUAKE
-	db 46, HORN_DRILL
+	db 46, GUILLOTINE ; ABUSE
 	db 54, POISON_GAS
 	db 0
 
@@ -265,10 +266,10 @@ ClefairyEvosMoves:
 ; Learnset
 	db 13, SING
 	db 15, DOUBLESLAP
-	db 17, METRONOME
 	db 21, HEADBUTT
 	db 25, LIGHT_SCREEN
 	db 28, MIMIC
+	db 30, FISSURE ; PIXIE_GLEAM
 	db 33, LOVELY_KISS
 	db 38, PETAL_DANCE
 	db 45, SKY_ATTACK
@@ -288,6 +289,7 @@ SpearowEvosMoves:
 	db 18, WING_ATTACK
 	db 22, SUBMISSION
 	db 26, MIRROR_MOVE
+	db 28, GUILLOTINE ; ABUSE
 	db 30, FURY_ATTACK
 	db 33, AGILITY
 	db 37, DRILL_PECK
@@ -372,6 +374,7 @@ ExeggutorEvosMoves:
 	db 27, PSYBEAM
 	db 32, BARRAGE
 	db 36, SLEEP_POWDER
+	db 40, FISSURE ; PIXIE_GLEAM
 	db 48, SOLARBEAM
 	db 53, EGG_BOMB
 	db 0
@@ -405,6 +408,7 @@ ExeggcuteEvosMoves:
 	db 32, BARRAGE
 	db 34, SOFTBOILED
 	db 36, SLEEP_POWDER
+	db 40, FISSURE ; PIXIE_GLEAM
 	db 48, SOLARBEAM
 	db 53, EGG_BOMB
 	db 0
@@ -509,6 +513,7 @@ RhyhornEvosMoves:
 	db 47, DEFENSE_CURL
 	db 52, MEGA_KICK
 	db 56, HYPER_BEAM
+	db 60, METRONOME ; METEOR_SMASH
 	db 0
 
 LaprasEvosMoves:
@@ -545,7 +550,7 @@ MewEvosMoves:
 ; Learnset
 	db 51, TRANSFORM
 	db 55, MEGA_PUNCH
-	db 59, METRONOME
+	db 59, FISSURE ; PIXIE_GLEAM
 	db 63, SUBSTITUTE
 	; TODO: Softboiled?
 	db 0
@@ -633,6 +638,7 @@ StaryuEvosMoves:
 	db 27, MEGA_DRAIN
 	db 31, RECOVER
 	db 34, SWIFT
+	db 37, FISSURE ; PIXIE_GLEAM
 	db 39, ACID_ARMOR
 	db 43, PSYCHIC_M
 	db 48, HYDRO_PUMP
@@ -646,10 +652,12 @@ BlastoiseEvosMoves:
 	db 11, LIGHT_SCREEN
 	db 14, WATER_GUN
 	db 19, BITE
+	db 22, HORN_DRILL ; IRON_SLAP
 	db 24, GLARE
 	db 30, WITHDRAW
 	db 34, COUNTER ; DRAIN PUNCH
 	db 39, SKULL_BASH
+	db 42, METRONOME ; METEOR_SMASH
 	db 45, HYDRO_PUMP
 	db 0
 
@@ -661,7 +669,7 @@ PinsirEvosMoves:
 	db 21, KARATE_CHOP
 	db 24, VICEGRIP
 	db 27, FOCUS_ENERGY
-	db 30, GUILLOTINE
+	db 30, GUILLOTINE ; ABUSE
 	db 33, SPIKE_CANNON
 	db 38, EARTHQUAKE
 	db 45, TWINEEDLE
@@ -722,6 +730,7 @@ OnixEvosMoves:
 	db 39, TAKE_DOWN ; HEAT RUSH
 	db 45, WITHDRAW
 	db 52, SELFDESTRUCT
+	db 58, METRONOME ; METEOR_SMASH
 	db 0
 
 FearowEvosMoves:
@@ -733,6 +742,7 @@ FearowEvosMoves:
 	db 22, SUBMISSION
 	db 26, MIRROR_MOVE
 	db 30, FURY_ATTACK
+	db 31, GUILLOTINE ; ABUSE
 	db 33, AGILITY
 	db 37, DRILL_PECK
 	db 45, SONICBOOM
@@ -806,7 +816,7 @@ GravelerEvosMoves:
 	db 39, EARTHQUAKE
 	db 46, EXPLOSION
 	db 52, MEGA_KICK
-	db 60, FISSURE
+	db 61, METRONOME
 	db 65, MIRROR_MOVE
 	db 0
 
@@ -819,7 +829,7 @@ ChanseyEvosMoves:
 	db 28, MINIMIZE
 	db 34, BARRAGE
 	db 41, SOFTBOILED
-	db 47, EGG_BOMB
+	db 47, FISSURE ; PIXIE_GLEAM
 	db 54, DOUBLE_EDGE
 	db 0
 
@@ -899,6 +909,7 @@ ArbokEvosMoves:
 	db 19, CONSTRICT ; STATIC SNAG
 	db 22, MEGA_DRAIN
 	db 26, SLAM ; FILTHY SLAM
+	db 29, GUILLOTINE ; ABUSE
 	db 30, WITHDRAW
 	db 33, ACID
 	db 36, LEECH_LIFE
@@ -975,7 +986,7 @@ GolemEvosMoves:
 	db 39, EARTHQUAKE
 	db 46, EXPLOSION
 	db 52, MEGA_KICK
-	db 60, FISSURE
+	db 60, METRONOME ; METEOR SMASH
 	db 65, MIRROR_MOVE
 	db 0
 
@@ -990,6 +1001,7 @@ MagmarEvosMoves:
 	db 24, TELEPORT
 	db 27, FIRE_PUNCH
 	db 30, BARRAGE
+	db 35, GUILLOTINE ; ABUSE
 	db 37, EGG_BOMB
 	db 43, EARTHQUAKE
 	db 49, POISON_GAS
@@ -1042,7 +1054,7 @@ KoffingEvosMoves:
 	db 36, SELFDESTRUCT
 	db 42, GROWTH
 	db 46, POISON_GAS
-	db 50, EGG_BOMB
+	db 50, GUILLOTINE ; ABUSE
 	db 55, EXPLOSION
 	db 0
 
@@ -1100,7 +1112,6 @@ DiglettEvosMoves:
 	db 39, EARTHQUAKE
 	db 43, FURY_ATTACK
 	db 49, DISABLE
-	db 54, FISSURE
 	db 59, SUBMISSION
 	db 0
 
@@ -1214,7 +1225,7 @@ JynxEvosMoves:
 	db 42, DREAM_EATER
 	db 42, LOVELY_KISS
 	db 47, BLIZZARD
-	db 54, EGG_BOMB
+	db 54, BARRAGE ; SPECTRE_ORB
 	db 63, MIST
 	db 0
 
@@ -1276,7 +1287,7 @@ KrabbyEvosMoves:
 	db 14, FURY_SWIPES ; DUST CLAW
 	db 17, KARATE_CHOP
 	db 19, VICEGRIP
-	db 22, GUILLOTINE
+	db 22, GUILLOTINE ; ABUSE
 	db 26, AGILITY
 	db 30, SLASH
 	db 35, SLAM ; FILTHY SLAM
@@ -1418,6 +1429,7 @@ HorseaEvosMoves:
 	db 39, DOUBLE_TEAM
 	db 44, DRAGON_RAGE
 	db 49, HYDRO_PUMP
+	db 54, EGG_BOMB ; DRACO_METEOR
 	db 0
 
 SeadraEvosMoves:
@@ -1434,6 +1446,7 @@ SeadraEvosMoves:
 	db 39, DOUBLE_TEAM
 	db 44, DRAGON_RAGE
 	db 49, HYDRO_PUMP
+	db 54, EGG_BOMB ; DRACO_METEOR
 	db 0
 
 SandshrewEvosMoves:
@@ -1626,6 +1639,7 @@ ZubatEvosMoves:
 	db 25, CONFUSE_RAY
 	db 28, SWORDS_DANCE
 	db 30, SLUDGE
+	db 35, GUILLOTINE ; ABUSE
 	db 37, SKULL_BASH
 	db 44, SUPER_FANG
 	db 50, POISON_GAS
@@ -1645,6 +1659,7 @@ EkansEvosMoves:
 	db 19, CONSTRICT ; STATIC SNAG
 	db 23, MEGA_DRAIN
 	db 26, SLAM ; FILTHY SLAM
+	db 29, GUILLOTINE ; ABUSE
 	db 30, WITHDRAW
 	db 33, ACID
 	db 36, LEECH_LIFE
@@ -1783,7 +1798,6 @@ DugtrioEvosMoves:
 	db 39, EARTHQUAKE
 	db 43, FURY_ATTACK
 	db 49, DISABLE
-	db 54, FISSURE
 	db 59, SUBMISSION
 	db 0
 
@@ -1846,6 +1860,7 @@ ButterfreeEvosMoves:
 	db 0
 ; Learnset
 	db 10, PSYWAVE
+	db 11, POUND ; PIXIE_DUST
 	db 12, LEECH_LIFE
 	db 15, POISONPOWDER
 	db 16, STUN_SPORE
@@ -1853,6 +1868,7 @@ ButterfreeEvosMoves:
 	db 20, CONFUSION
 	db 24, CONFUSE_RAY
 	db 27, PSYBEAM
+	db 30, FISSURE ; PIXIE_GLEAM
 	db 33, WHIRLWIND
 	db 35, PSYCHIC_M
 	db 45, DREAM_EATER
@@ -1923,6 +1939,7 @@ GolbatEvosMoves:
 	db 25, CONFUSE_RAY
 	db 28, SWORDS_DANCE
 	db 30, SLUDGE
+	db 35, GUILLOTINE ; ABUSE
 	db 37, SKULL_BASH
 	db 44, SUPER_FANG
 	db 50, POISON_GAS
@@ -1983,7 +2000,7 @@ KinglerEvosMoves:
 	db 14, FURY_SWIPES ; DUST CLAW
 	db 17, VICEGRIP
 	db 19, KARATE_CHOP
-	db 22, GUILLOTINE
+	db 22, GUILLOTINE ; ABUSE
 	db 26, AGILITY
 	db 30, SLASH
 	db 35, SLAM ; FILTHY SLAM
@@ -2019,7 +2036,7 @@ ElectrodeEvosMoves:
 	db 35, SELFDESTRUCT
 	db 39, REFLECT
 	db 42, SWIFT
-	db 48, EGG_BOMB
+	db 48, EGG_BOMB ; DRACO_METEOR
 	db 0
 
 ClefableEvosMoves:
@@ -2028,10 +2045,10 @@ ClefableEvosMoves:
 ; Learnset
 	db 13, SING
 	db 15, DOUBLESLAP
-	db 17, METRONOME
 	db 21, HEADBUTT
 	db 25, LIGHT_SCREEN
 	db 28, MIMIC
+	db 30, FISSURE ; PIXIE_GLEAM
 	db 33, LOVELY_KISS
 	db 38, PETAL_DANCE
 	db 45, SKY_ATTACK
@@ -2055,7 +2072,7 @@ WeezingEvosMoves:
 	db 36, SELFDESTRUCT
 	db 42, GROWTH
 	db 46, POISON_GAS
-	db 50, EGG_BOMB
+	db 50, GUILLOTINE ; ABUSE
 	db 55, EXPLOSION
 	db 0
 
@@ -2126,6 +2143,7 @@ AlakazamEvosMoves:
 	db 38, PSYCHIC_M
 	db 42, REFLECT
 	db 54, MEDITATE
+	db 60, FISSURE ; PIXIE_GLEAM
 	db 0
 
 PidgeottoEvosMoves:
@@ -2175,6 +2193,7 @@ StarmieEvosMoves:
 	db 27, MEGA_DRAIN
 	db 31, RECOVER
 	db 34, SWIFT
+	db 37, FISSURE ; PIXIE_GLEAM
 	db 39, ACID_ARMOR
 	db 43, PSYCHIC_M
 	db 48, HYDRO_PUMP
@@ -2346,7 +2365,7 @@ NidorinoEvosMoves:
 	db 31, FURY_ATTACK
 	db 37, COUNTER ;DRAIN PUNCH
 	db 43, EARTHQUAKE
-	db 46, HORN_DRILL
+	db 46, GUILLOTINE ; ABUSE
 	db 54, POISON_GAS
 	db 0
 
@@ -2383,7 +2402,7 @@ GeodudeEvosMoves:
 	db 39, EARTHQUAKE
 	db 46, EXPLOSION
 	db 52, MEGA_KICK
-	db 60, FISSURE
+	db 60, METRONOME
 	db 65, MIRROR_MOVE
 	db 0
 
@@ -2454,11 +2473,13 @@ SquirtleEvosMoves:
 	db 11, LIGHT_SCREEN
 	db 14, WATER_GUN
 	db 18, BITE
+	db 19, HORN_DRILL ; IRON_SLAP
 	db 23, GLARE
 	db 28, WITHDRAW
 	db 33, COUNTER ; DRAIN PUNCH
 	db 35, SKULL_BASH
-	db 42, HYDRO_PUMP
+	db 42, METRONOME ; METEOR_SMASH
+	db 45, HYDRO_PUMP
 	db 0
 
 CharmeleonEvosMoves:
@@ -2487,11 +2508,13 @@ WartortleEvosMoves:
 	db 11, LIGHT_SCREEN
 	db 14, WATER_GUN
 	db 18, BITE
+	db 19, HORN_DRILL ; IRON_SLAP
 	db 23, GLARE
 	db 28, WITHDRAW
 	db 33, COUNTER ; DRAIN PUNCH
 	db 35, SKULL_BASH
-	db 42, HYDRO_PUMP
+	db 42, METRONOME ; METEOR_SMASH
+	db 45, HYDRO_PUMP
 	db 0
 
 CharizardEvosMoves:
@@ -2573,7 +2596,7 @@ BellsproutEvosMoves:
 	db 29, SLAM ; FILTHY SLAM
 	db 35, RAZOR_LEAF
 	db 42, VICEGRIP
-	db 48, EGG_BOMB
+	db 48, EGG_BOMB ; DRACO_METEOR
 	db 54, SELFDESTRUCT
 	db 58, GROWTH
 	db 0
@@ -2591,7 +2614,7 @@ WeepinbellEvosMoves:
 	db 29, SLAM ; FILTHY SLAM
 	db 35, RAZOR_LEAF
 	db 42, VICEGRIP
-	db 48, EGG_BOMB
+	db 48, EGG_BOMB ; DRACO_METEOR
 	db 54, SELFDESTRUCT
 	db 58, GROWTH
 	db 0
@@ -2608,7 +2631,7 @@ VictreebelEvosMoves:
 	db 29, SLAM ; FILTHY SLAM
 	db 35, RAZOR_LEAF
 	db 42, VICEGRIP
-	db 48, EGG_BOMB
+	db 48, EGG_BOMB ; DRACO_METEOR
 	db 54, SELFDESTRUCT
 	db 58, GROWTH
 	db 0
@@ -2630,4 +2653,5 @@ HardenedOnixEvosMoves:
 	db 42, SPIKE_CANNON
 	db 45, WITHDRAW
 	db 52, SELFDESTRUCT
+	db 58, METRONOME ; METEOR_SMASH
 	db 0

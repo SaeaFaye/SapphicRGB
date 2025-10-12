@@ -1,6 +1,6 @@
 MoveNames::
 	list_start
-	li "POUND"
+	li "PIXIE DUST" ; CHANGED FROM POUND
 	li "KARATE CHOP"
 	li "DOUBLESLAP"
 	li "COMET PUNCH"
@@ -11,7 +11,7 @@ MoveNames::
 	li "THUNDERPUNCH"
 	li "SCRATCH"
 	li "VICEGRIP"
-	li "GUILLOTINE"
+	li "ABUSE" ; CHANGED FROM GUILLOTINE
 	li "ROOST" ; changed from RAZOR WIND
 	li "SWORDS DANCE"
 	li "CUT"
@@ -31,7 +31,7 @@ MoveNames::
 	li "HEADBUTT"
 	li "HORN ATTACK"
 	li "FURY ATTACK"
-	li "HORN DRILL"
+	li "IRON SLAP" ; CHANGED FROM HORN DRILL
 	li "TACKLE"
 	li "BODY SLAM"
 	li "WRAP"
@@ -89,7 +89,7 @@ MoveNames::
 	li "THUNDER"
 	li "ROCK THROW"
 	li "EARTHQUAKE"
-	li "FISSURE"
+	li "PIXIE GLEAM" ; FROM FISSURE
 	li "DIG"
 	li "TOXIC"
 	li "CONFUSION"
@@ -117,10 +117,10 @@ MoveNames::
 	li "REFLECT"
 	li "FOCUS ENERGY"
 	li "BIDE"
-	li "METRONOME"
+	li "METEOR SMASH" ; FROM METRONOME
 	li "MIRROR MOVE"
 	li "SELFDESTRUCT"
-	li "EGG BOMB"
+	li "DRACO METEOR" ; FROM EGG_BOMB
 	li "LICK"
 	li "SMOG"
 	li "SLUDGE"
@@ -128,7 +128,7 @@ MoveNames::
 	li "FIRE BLAST"
 	li "WATERFALL"
 	li "CLAMP"
-	li "SWIFT"
+	li "SWIFT FROST" ; FROM SWIFT
 	li "SKULL BASH"
 	li "SPIKE CANNON"
 	li "STATIC SNAG" ; changed from CONSTRICT
@@ -139,7 +139,7 @@ MoveNames::
 	li "GLARE"
 	li "DREAM EATER"
 	li "POISON GAS"
-	li "BARRAGE"
+	li "SPECTRE ORB" ; FROM BARRAGE
 	li "LEECH LIFE"
 	li "LOVELY KISS"
 	li "SKY ATTACK"

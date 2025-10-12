@@ -1,8 +1,6 @@
-; PureRGBnote: CHANGED: many move animations were enhanced
-
 AttackAnimationPointers:
 	table_width 2
-	dw PoundAnim
+	dw SleepPowderAnim ; changed from PoundAnim for Pixie Dust
 	dw KarateChopAnim
 	dw DoubleSlapAnim
 	dw CometPunchAnim
@@ -13,7 +11,7 @@ AttackAnimationPointers:
 	dw ThunderPunchAnim
 	dw ScratchAnim
 	dw VicegripAnim
-	dw GuillotineAnim
+	dw MegaPunchAnim ; changed from GuillotineAnim for Crunch
 	dw RazorWindAnim
 	dw SwordsDanceAnim
 	dw CutAnim
@@ -33,7 +31,7 @@ AttackAnimationPointers:
 	dw HeadbuttAnim
 	dw HornAttackAnim
 	dw FuryAttackAnim
-	dw HornDrillAnim
+	dw KarateChopAnim ; changed from HornDrillAnim for Iron Slap
 	dw TackleAnim
 	dw BodySlamAnim
 	dw WrapAnim
@@ -91,7 +89,7 @@ AttackAnimationPointers:
 	dw ThunderAnim
 	dw RockThrowAnim
 	dw EarthquakeAnim
-	dw FissureAnim
+	dw FlashAnim ; Changed from FissureAnim for Pixie Gleam
 	dw DigAnim
 	dw ToxicAnim
 	dw ConfusionAnim
@@ -119,10 +117,10 @@ AttackAnimationPointers:
 	dw ReflectAnim
 	dw FocusEnergyAnim
 	dw BideAnim
-	dw MetronomeAnim
+	dw SeismicTossAnim ; changed from MetronomeAnim for Meteor Smash
 	dw MirrorMoveAnim
 	dw SelfdestructAnim
-	dw EggBombAnim
+	dw HyperBeamAnim ; changed from EggBombAnim for Draco Meteor
 	dw LickAnim
 	dw SmogAnim
 	dw SludgeAnim

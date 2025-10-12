@@ -24,8 +24,8 @@ TypePaletteMapping:
 	db PAL_BLACKMON;ghost
 	db PAL_BLACK2; crystal (no moves use this type)
 	db PAL_REDMON ; bonemerang (same as ground)
-	db PAL_BLACK2;unused
-	db PAL_BLACK2;unused
+	db PAL_BLACKMON;dark
+	db PAL_GRAYMON;steel
 	db PAL_BLACK2;unused
 	db PAL_BLACK2;unused
 	db PAL_BLACK2;unused
@@ -40,6 +40,7 @@ TypePaletteMapping:
 	db PAL_PINKMON;psychic
 	db PAL_CYANMON;ice
 	db PAL_0F;dragon
+	db PAL_PINKMON;fairy
 
 ; input d = type ID
 LoadTypeIcon:
@@ -72,8 +73,8 @@ TypeGraphicMapping:
 	dw GhostTypeIcon;ghost
 	dw 0 ; crystal (no moves use this type)
 	dw GroundTypeIcon ; bonemerang
-	dw 0 ;unused
-	dw 0 ;unused
+	dw DarkTypeIcon ;dark
+	dw SteelTypeIcon ;steel
 	dw 0 ;unused
 	dw 0 ;unused
 	dw 0 ;unused
@@ -88,6 +89,7 @@ TypeGraphicMapping:
 	dw PsychicTypeIcon;psychic
 	dw IceTypeIcon;ice
 	dw DragonTypeIcon;dragon
+	dw FairyTypeIcon;fairy
 
 CheckGBCPsychic:
 	ld a, [wOptions2]
