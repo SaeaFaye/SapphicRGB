@@ -12,6 +12,8 @@ TypeNames:
 	dw .Ghost
 	dw .Crystal
 	dw .Ground ; bonemerang type
+	dw .Dark
+	dw .Steel
 
 REPT UNUSED_TYPES_END - UNUSED_TYPES
 	dw .Normal
@@ -26,6 +28,7 @@ ENDR
 	dw .Psychic
 	dw .Ice
 	dw .Dragon
+	dw .Fairy
 
 	assert_table_length NUM_TYPES
 
@@ -49,3 +52,6 @@ ENDR
 .Crystal:  db "CRYSTAL@"
 .Floating: db "FLOATING@"
 .Magma:    db "MAGMA@"
+.Dark	   db "DARK@"
+.Steel     db "STEEL@"
+.Fairy     db "FAIRY@"	

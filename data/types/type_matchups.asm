@@ -107,5 +107,42 @@ TypeEffects:
 	db BONEMERANG_TYPE,   POISON,       SUPER_EFFECTIVE
 	db WATER,        MAGMA,         NO_EFFECT
 	db FIRE,         MAGMA,         NO_EFFECT
+	db POISON,       STEEL,         NO_EFFECT
+	db DRAGON,       FAIRY,         NO_EFFECT
+	db PSYCHIC_TYPE, DARK,          NO_EFFECT
+	db STEEL,        FAIRY,         SUPER_EFFECTIVE
+	db STEEL,        ROCK,          SUPER_EFFECTIVE
+	db STEEL,        ICE,           SUPER_EFFECTIVE
+	db FIRE,         STEEL,         SUPER_EFFECTIVE
+	db FIGHTING,     STEEL,         SUPER_EFFECTIVE
+	db GROUND,       STEEL,         SUPER_EFFECTIVE
+	db STEEL,        STEEL,         NOT_VERY_EFFECTIVE
+	db BUG,          STEEL,         NOT_VERY_EFFECTIVE
+	db DRAGON,       STEEL,         NOT_VERY_EFFECTIVE
+	db FAIRY,        STEEL,         NOT_VERY_EFFECTIVE
+	db FLYING,       STEEL,         NOT_VERY_EFFECTIVE
+	db GRASS,        STEEL,         NOT_VERY_EFFECTIVE
+	db ICE,          STEEL,         NOT_VERY_EFFECTIVE
+	db NORMAL,       STEEL,         NOT_VERY_EFFECTIVE
+	db DARK,         STEEL,         NOT_VERY_EFFECTIVE
+	db ROCK,         STEEL,         NOT_VERY_EFFECTIVE
+	db STEEL,        ELECTRIC,      NOT_VERY_EFFECTIVE
+	db STEEL,        FIRE,          NOT_VERY_EFFECTIVE
+	db STEEL,        WATER,         NOT_VERY_EFFECTIVE
+	db FAIRY,        DRAGON,        SUPER_EFFECTIVE
+	db FAIRY,        DARK,          SUPER_EFFECTIVE
+	db FAIRY,        FIGHTING,      SUPER_EFFECTIVE
+	db DARK,         GHOST,         SUPER_EFFECTIVE
+	db DARK,         PSYCHIC_TYPE,  SUPER_EFFECTIVE
+	db FIGHTING,     DARK,          SUPER_EFFECTIVE
+	db BUG,          DARK,          SUPER_EFFECTIVE
+	db DARK,         DARK,          NOT_VERY_EFFECTIVE
+	db DARK,         FAIRY,         NOT_VERY_EFFECTIVE
+	db DARK,         FIGHTING,      NOT_VERY_EFFECTIVE
+	db GHOST,        DARK,          NOT_VERY_EFFECTIVE
+	db FAIRY,        FIRE,          NOT_VERY_EFFECTIVE
+	db FAIRY,        POISON,        NOT_VERY_EFFECTIVE
+	db BUG,          FAIRY,         NOT_VERY_EFFECTIVE
+	db FIGHTING,     FAIRY,         NOT_VERY_EFFECTIVE
 	db -1 ; end
 
