@@ -133,31 +133,11 @@ GainExperience:
 	jr nz, .next1
 	call GetBadgesObtained
 	ld a, [wNumSetBits]
-	cp 8
-	ld d, 65 ; final Rival
-	jr nc, .next1
-	cp 7
-	ld d, 60 ; Giovanna
-	jr nc, .next1
-	cp 6
-	ld d, 55 ; Blaine
-	jr nc, .next1
-	cp 5
-	ld d, 50 ; Sabrina
-	jr nc, .next1
-    cp 4
-	ld d, 42 ; Koga
-	jr nc, .next1
-	cp 3
-	ld d, 36 ; Erica
-	jr nc, .next1
-	cp 2
-    ld d, 28 ; Surge
-	jr nc, .next1
-	cp 1
-	ld d, 23 ; Misty
-	jr nc, .next1
-	ld d, 14 ; Brock
+	ld hl, LevelCapList
+    ld c, a
+    ld b, 0
+    add hl, bc
+    ld d, [hl]
 .next1
 	callfar CalcExperience ; get max exp
 ; compare max exp with current exp
@@ -475,3 +455,14 @@ HasExpBar:
 	ld a, [wOptions3]
 	bit BIT_EXP_BAR, a
 	ret
+
+LevelCapList:
+    db 13 ; Brock
+    db 22 ; Misty
+    db 27 ; Surge
+    db 36 ; Erika
+    db 45 ; Koga
+    db 50 ; Sabrina
+    db 55 ; Blaine
+    db 60 ; Giovanna
+    db 70 ; Final
