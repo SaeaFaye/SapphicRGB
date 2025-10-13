@@ -123,10 +123,42 @@ GainExperience:
 	ld b, 0
 	ld hl, wPartySpecies
 	add hl, bc
-	ld a, [hl]
-	ld [wCurSpecies], a
+	ld a, [hl] ; species
+	ld [wd0b5], a
 	call GetMonHeader
 	ld d, MAX_LEVEL
+	ld a, [wGameStage] ; Check if player has beat the game
+	and a
+	ld d, 100
+	jr nz, .next1
+	call GetBadgesObtained
+	ld a, [wNumSetBits]
+	cp 8
+	ld d, 65 ; final Rival
+	jr nc, .next1
+	cp 7
+	ld d, 60 ; Giovanna
+	jr nc, .next1
+	cp 6
+	ld d, 55 ; Blaine
+	jr nc, .next1
+	cp 5
+	ld d, 50 ; Sabrina
+	jr nc, .next1
+    cp 4
+	ld d, 42 ; Koga
+	jr nc, .next1
+	cp 3
+	ld d, 36 ; Erica
+	jr nc, .next1
+	cp 2
+    ld d, 28 ; Surge
+	jr nc, .next1
+	cp 1
+	ld d, 23 ; Misty
+	jr nc, .next1
+	ld d, 14 ; Brock
+.next1
 	callfar CalcExperience ; get max exp
 ; compare max exp with current exp
 	ldh a, [hExperience]
