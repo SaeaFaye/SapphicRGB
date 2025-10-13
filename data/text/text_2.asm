@@ -160,6 +160,13 @@ _ViridianCityPokecenterGuyText::
 	line "heal your tired,"
 	cont "hurt or fainted"
 	cont "#MON!"
+	cont "It's amazing what"
+	cont "free healthcare"
+	cont "can do, huh?"
+	cont "If only the"
+	cont "LEAGUE still had"
+	cont "this kind of"
+	cont "compassion..."
 	done
 
 _PewterCityPokecenterGuyText::
@@ -187,6 +194,8 @@ _LavenderPokecenterGuyText::
 
 	para "People will pay a"
 	line "lot for one!"
+	line "It's kinda of"
+	cont "fucked up."
 	done
 
 _MtMoonPokecenterBenchGuyText::
@@ -194,17 +203,27 @@ _MtMoonPokecenterBenchGuyText::
 	line "many #MON, you"
 	cont "should store them"
 	cont "via <PC>!"
+	cont "Or sell them to"
+	cont "the glue factory,"
+	cont "I guess. I'm not"
+	cont "the boss of you."
 	done
 
 _RockTunnelPokecenterGuyText::
 	text "I heard that"
 	line "GHOSTs haunt"
 	cont "LAVENDER TOWN!"
+	cont "What RUBBISH!"
+	cont "The real scare"
+	cont "is their lack of"
+	cont "FACTS AND LOGIC."
 	done
 
 _UnusedBenchGuyText1::
-	text "I wish I could"
-	line "catch #MON."
+	text "I wonder if she"
+	cont "would still love"
+	cont "me if I was a"
+	cont "Wurmple..."
 	done
 
 _UnusedBenchGuyText2::
@@ -235,9 +254,15 @@ _VermilionPokecenterGuyText::
 	done
 
 _CeladonCityPokecenterGuyText::
-	text "If I had a BIKE,"
-	line "I would go to"
-	cont "CYCLING ROAD!"
+	text "I wish I could"
+	line "catch #MON."
+	line "Tragically, the"
+	line "paperwork to be"
+	line "a trainer needs a"
+	line "background check."
+	cont "I never should"
+	cont "have pirated that"
+	cont "video game ROM..."
 	done
 
 _FuchsiaCityPokecenterGuyText::
@@ -264,11 +289,14 @@ _SaffronCityPokecenterGuyText1::
 	text "It would be great"
 	line "if the ELITE FOUR"
 	cont "came and stomped"
-	cont "<TEAM><ROCKET>!"
+	cont "the rebellion!"
+	cont "Why have an ELITE"
+	cont "FOUR if they"
+	cont "won't protect us?"
 	done
 
 _SaffronCityPokecenterGuyText2::
-	text "<TEAM><ROCKET> took"
+	text "The rebels took"
 	line "off! We can go"
 	cont "out safely again!"
 	cont "That's great!"
@@ -282,6 +310,11 @@ _CeladonCityHotelText::
 _NewBicycleText::
 	text "A shiny new"
 	line "BICYCLE!"
+	cont "Kanto is very"
+	cont "bike-friendly."
+	cont "Thank goodness"
+	cont "for good urban"
+	cont "planning, huh?"
 	done
 
 _PushStartText::
@@ -346,37 +379,38 @@ _CinnabarGymQuizIntroText::
 	prompt
 
 _CinnabarQuizQuestionsText1::
-	text "METAPOD evolves"
-	line "into BUTTERFREE?"
+	text "Blaine is very,"
+	line "oh-so handsome"
+	cont "and suave."
 	prompt
 
 _CinnabarQuizQuestionsText2::
-	text "Are there 9"
-	line "certified #MON"
-	cont "LEAGUE BADGEs?"
+	text "Blaine's views"
+	line "on water Pokémon"
+	cont "are problematic."
 	prompt
 
 _CinnabarQuizQuestionsText3::
-	text "Does POLIWAG"
-	line "evolve 3 times?"
+	text "Vaporeon isn't"
+	line "very compatible"
+	cont "with humans."
 	prompt
 
 _CinnabarQuizQuestionsText4::
-	text "Are electric"
-	line "moves effective"
-	cont "against ground-"
-	cont "type #MON?"
+	text "Blaine is too"
+	line "old to use the"
+	cont "terms CRINGE,"
+	cont "FERAL, n' BASED?"
 	prompt
 
 _CinnabarQuizQuestionsText5::
-	text "Are #MON of the"
-	line "same species and"
-	cont "level identical?"
+	text "Climate change"
+	line "is a hoax."
 	prompt
 
 _CinnabarQuizQuestionsText6::
 	text "<TM>28 contains"
-	line "TOMBSTONER?"
+	line "AWAWAWAWAWA?"
 	prompt
 
 _CinnabarGymQuizCorrectText::
@@ -431,7 +465,7 @@ _OakLabEmailText::
 	line "#MON trainers!"
 
 	para "The elite trainers"
-	line "of #MON LEAGUE"
+	line "of the LEAGUE"
 	cont "are ready to take"
 	cont "on all comers!"
 
@@ -439,13 +473,20 @@ _OakLabEmailText::
 	line "#MON and see"
 	cont "how you rate as a"
 	cont "trainer!"
+	
+	para "It's all put on"
+	line "television, for"
+	cont "the world to see!"
+
+	para "Prevail, and you"
+	line "could be CHAMP."
+	cont "...you won't,"
+	cont "but imagine"
+	cont "the fun, loser!"
+	cont "XOXO, SUIKO"
 
 	para "#MON LEAGUE HQ"
 	line "INDIGO PLATEAU"
-
-	para "PS: PROF.OAK,"
-	line "please visit us!"
-	cont "<...>"
 	done
 
 _GameCornerCoinCaseText::
@@ -1732,47 +1773,120 @@ _LinkCanceledText::
 	done
 
 _OakSpeechText1::
-	text "Hello there!"
-	line "Welcome to the"
-	cont "world of #MON!"
+	text "Welcome."
+	line "I've heard you"
+	cont "show promise."
 
-	para "My name is OAK!"
-	line "People call me"
-	cont "the #MON PROF!"
+	para "I'm PROF. OAK!"
+	line "I have need of"
+	cont "your talents."
+	cont "You had me in"
+	cont "undergrad, yes?"
+	cont "To think that"
+	cont "you finished your"
+	cont "doctorate..."
+
+	para "Naturally,"
+	line "I requested you"
+	cont "for my research."
+	cont "But my hope"
+	cont "goes beyond mere"
+	cont "science, friend."
 	prompt
 
 _OakSpeechText2A::
-	text "This world is"
-	line "inhabited by"
-	cont "creatures called"
-	cont "#MON!@"
-	text_end
+	text "100 years ago,"
+	line "the SOVEREIGN"
+	cont "of KANTO was"
+	cont "defeated by four"
+	cont "ELITE trainers"
+	cont "and the people's"
+	cont "CHAMPION."
+
+	para "They promised"
+	line "a new order."
+	cont "Freedom, kindness,"
+	cont "and prosperity."
+	cont "For decades,"
+	cont "KANTO healed."
+	cont "Pokémon came out"
+	cont "of hiding."
+
+	para "But we both know"
+	line "it didn't last."
+	cont "The LEAGUE is now"
+	cont "divided and weak."
+	cont "Our CHAMPION,"
+	cont "the idol SHURI,"
+	cont "cares only for"
+	cont "profit and fame."
+
+	para "I fear KANTO"
+	line "is on the cusp of"
+	cont "another decline."
+	done
 
 _OakSpeechText2B::
 	text "For some people,"
-	line "#MON are"
-	cont "pets. Others use"
-	cont "them for fights."
+	line "#MON are just"
+	cont "pets. Others form"
+	cont "true friendships." 
+	
+	para "Your dissertation"
+	line "posited that"
+	cont "trainers in"
+	cont "an aesthetic and"
+	cont "idealogical"
+	cont "harmony with"
+	cont "their partners"
+	cont "can draw forth"
+	cont "true power."
 
 	para "Myself<...>"
 
-	para "I study #MON"
-	line "as a profession."
+	para "I've always"
+	line "suspected that"
+	cont "#MON are"
+	cont "more than mere"
+	cont "organisms."
+
+	para "Could they be"
+	line "affected by our"
+	cont "dreams? By dark"
+	cont "truths in our"
+	cont "human hearts?"
 	prompt
 
 _IntroducePlayerText::
-	text "First, what is"
-	line "your name?"
+	text "I heard you've"
+	line "changed your name"
+	cont "since undergrad."
+	cont "What shall we"
+	cont "call you at the"
+	cont "laboratory?"
 	prompt
 
 _IntroduceRivalText::
-	text "This is my grand-"
-	line "son. He's been"
-	cont "your rival since"
-	cont "you were a baby."
+	text "This is my other"
+	line "prospect. You're"
+	cont "familiar, albeit"
+	cont "tangentially."
 
-	para "<...>Erm, what is"
-	line "his name again?"
+	para "She grew up in"
+	line "SAPPHRON, but"
+	cont "would visit her"
+	cont "sister here in"
+	cont "PALLET TOWN."
+
+	para "She lacks your"
+	line "formal schooling,"
+	cont "but has ferocity"
+	cont "and passion"
+	cont "necessary for"
+	cont "our goals."
+
+	para "You'll recall her"
+	line "name, of course."
 	prompt
 
 _OakSpeechText3::
@@ -1782,10 +1896,20 @@ _OakSpeechText3::
 	line "#MON legend is"
 	cont "about to unfold!"
 
-	para "A world of dreams"
-	line "and adventures"
-	cont "with #MON"
-	cont "awaits! Let's go!"
+	para "Forgive me for"
+	line "setting you on"
+	cont "a perilous path."
+	cont "You have the"
+	cont "courage for it."
+	cont "At times, you"
+	cont "won't know how"
+	cont "to persevere."
+
+	para "That's okay."
+	line "We've all stumbled"
+	cont "and fallen."
+	cont "I'll talk to you" 
+	cont "soon, <PLAYER>."
 	done
 
 _DoYouWantToNicknameText::
@@ -1797,14 +1921,16 @@ _DoYouWantToNicknameText::
 	done
 
 _YourNameIsText::
-	text "Right! So your"
-	line "name is <PLAYER>!"
+	text "A lovely name."
+	line "Thank you."
 	prompt
 
 _HisNameIsText::
-	text "That's right! I"
-	line "remember now! His"
-	cont "name is <RIVAL>!"
+	text "Sharp memory."
+	line "She's excited"
+	cont "to work with you."
+	cont "<...>too excited,"
+	cont "perhaps."
 	prompt
 
 _WillBeTradedText::

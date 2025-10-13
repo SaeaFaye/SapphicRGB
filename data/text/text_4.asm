@@ -10,11 +10,17 @@ _PokemonFaintedText::
 	done
 
 _PlayerBlackedOutText::
-	text "<PLAYER> is out of"
-	line "useable #MON!"
+	text "<PLAYER> is unable"
+	line "to fight on!"
 
-	para "<PLAYER> blacked"
-	line "out!"
+	para "She falls to her"
+	line "knees in defeat."
+	
+	para "Her Pokémon need"
+	line "medical attention!"
+
+	para "She rushes back"
+	line "to get help<...>"
 	prompt
 
 _RepelWoreOffText::
@@ -172,12 +178,12 @@ _PokemonCenterWelcomeText::
 
 	para "We heal your"
 	line "#MON back to"
-	cont "perfect health!"
+	cont "perfect health."
 	prompt
 
 _ShallWeHealYourPokemonText::
 	text "Shall we heal your"
-	line "#MON?"
+	line "#MON, dear?"
 	done
 
 _NeedYourPokemonText::

@@ -27,7 +27,7 @@ TrainerNames::
 	li "PROF.OAK"
 	li "SCIENTIST"
 	li "GIOVANNI"
-	li "ROCKET"
+	li "REBEL"
 	li "COOLTRAINER♂"
 	li "COOLTRAINER♀"
 	li "BRUNO"

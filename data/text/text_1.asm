@@ -5,7 +5,7 @@ _CardKeySuccessText1::
 _CardKeySuccessText2::
 	text_start
 	line "The CARD KEY"
-	cont "opened the door!"
+	cont "prevails!"
 	done
 
 _CardKeyFailText::

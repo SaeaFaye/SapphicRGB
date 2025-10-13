@@ -62,8 +62,6 @@ SECTION "Text 3", ROMX
 INCLUDE "text/RockTunnelB1F_2.asm"
 INCLUDE "text/SeafoamIslandsB4F.asm"
 
-INCLUDE "data/text/text_2.asm"
-
 INCLUDE "text/DiglettsCaveRoute2.asm"
 INCLUDE "text/ViridianForestNorthGate.asm"
 INCLUDE "text/Route2TradeHouse.asm"
@@ -307,3 +305,6 @@ INCLUDE "data/moves/names.asm"
 SECTION "Movedex Text", ROMX
 
 INCLUDE "data/moves/movedex_text.asm"
+
+SECTION "Text 14", ROMX
+INCLUDE "data/text/text_2.asm"
