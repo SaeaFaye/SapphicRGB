@@ -1,49 +1,106 @@
 _PokemonTower2FRivalWhatBringsYouHereText::
-	text "<RIVAL>: Hey,"
-	line "<PLAYER>! What"
-	cont "brings you here?"
-	cont "Your #MON"
-	cont "don't look dead!"
+	text "<RIVAL>: Hihi,"
+	line "<PLAYER>. Scary"
+	cont "place for a date."
+	cont "What if we drank"
+	cont "hemlock together?"
 
-	para "I can at least"
-	line "make them faint!"
-	cont "Let's go, pal!"
+	para "I jest, doll."
+	line "Did you come here"
+	cont "to mourn?"
+
+	para "It's odd. Pokémon"
+	line "can seem immortal."
+	cont "Shrug off fire,"
+	cont "frost, toxins<...>"
+
+	para "But their time"
+	line "is finite, too."
+
+	para "<PLAYER>: They're"
+	line "much more affected"
+	cont "by emotion and"
+	cont "purpose than our"
+	cont "bodies are."
+
+	para "Pokémon with a"
+	line "strong enough will"
+	cont "have lived for"
+	cont "centuries<...>"
+
+	para "<...>and those in"
+	line "KANTO have lived"
+	cont "shorter lives as"
+	cont "the region has"
+	cont "stagnated."
+
+	para "<RIVAL>: You're"
+	line "so fucking cute"
+	cont "when you're being"
+	cont "a nerd, doll."
+
+	para "<PLAYER>: Why are"
+	line "you here? Did a"
+	cont "Pokémon<...>?"
+
+	para "<RIVAL>: <...>no."
+	line "Mine are fine."
+	cont "I just<...>"
+
+	para "I needed to see"
+	line "this. To reflect."
+
+	para "<PLAYER>: <...>"
+
+	para "<RIVAL>: It's"
+	line "about time you"
+	cont "helped me feel"
+	cont "alive again, doll."
+
+	para "Is it profane"
+	line "to battle here?"
+	cont "<...>I hope so."
 	done
 
 _PokemonTower2FRivalDefeatedText::
-	text "What?"
-	line "You stinker!"
+	text "Lovely show!"
+	line "I'm impressed."
 
-	para "I took it easy on"
-	line "you too!"
+	para "But when will you"
+	line "blush for me?"
 	prompt
 
 _PokemonTower2FRivalVictoryText::
-	text "Well,"
-	line "look at all your"
-	cont "wimpy #MON!"
+	text "Tragic, tragic."
+	line "I wanted a"
+	cont "dire showdown!"
 
-	para "Toughen them up a"
-	line "bit more!"
+	para "Become better"
+	line "prey, <PLAYER>."
 	prompt
 
 _PokemonTower2FRivalHowsYourDexText::
-	text "How's your #DEX"
-	line "coming, pal?"
-	cont "I just caught a"
-	cont "CUBONE!"
+	text "I'm curious."
+	line "Do you think"
+	cont "I'm too mean?"
+	cont "A villain?"
 
-	para "I can't find the"
-	line "grown-up MAROWAK"
-	cont "yet!"
+	para "I enjoy theatrics."
+	line "It's a curse."
 
-	para "I doubt there are"
-	line "any left! Well, I"
-	cont "better get going!"
-	cont "I've got a lot to"
-	cont "accomplish, pal!"
+	para "<...>but not as"
+	line "much as I enjoy"
+	cont "you, <PLAYER>."
 
-	para "Smell ya later!"
+	para "My sin<...>"
+	line "My soul<...>"
+
+	para "Hahahaha!"
+	line "You need me,"
+	cont "fragile girl."
+
+	para "I'll see you"
+	line "again soon."
 	done
 
 _PokemonTower2FChannelerText::

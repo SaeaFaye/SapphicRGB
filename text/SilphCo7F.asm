@@ -1,6 +1,6 @@
 _SilphCo7FSilphWorkerM1HaveThisPokemonText::
 	text "Oh! Hi! You're"
-	line "not a <ROCKET>! You"
+	line "not a REBEL! You"
 	cont "came to save us?"
 	cont "Why, thank you!"
 
@@ -140,65 +140,92 @@ _SilphCo7FRocket3AfterBattleText::
 	done
 
 _SilphCo7FRivalText::
-	text "<RIVAL>: What"
-	line "kept you <PLAYER>?"
+	text "<RIVAL>: Tsk, tsk,"
+	line "tsk, dear<...>
+
+	para "You kept me"
+	line "waiting so LONG!"
+	cont "So long without"
+	cont "a hot, stammering"
+	cont "doll to destroy!"
+
+	para "Are you really"
+	line "here to save"
+	cont "these dumb suits?"
+	cont "They deserve this."
+	cont "You waste so much"
+	cont "time on the weak"
+	cont "and dull<...>"
+
+	para "<...>me?"
+	line "I'm here because"
+	cont "I knew you'd be"
+	cont "drawn to their"
+	cont "plight. Like a"
+	cont "good little girl."
 	done
 
 _SilphCo7FRivalWaitedHereText::
 	text "<RIVAL>: Hahaha!"
-	line "I thought you'd"
-	cont "turn up if I"
-	cont "waited here!"
+	line "Why are we always"
+	cont "at odds, cutie?"
 
-	para "I guess <TEAM>"
-	line "<ROCKET> slowed you"
-	cont "down! Not that I"
-	cont "care!"
+	para "Imagine if we"
+	line "worked together!"
+	cont "We could rule"
+	cont "this vile world."
 
-	para "I saw you in"
-	line "SAFFRON, so I"
-	cont "decided to see if"
-	cont "you got better!"
+	para "Think on it,"
+	line "<PLAYER>. Imagine"
+	cont "kneeling at my"
+	cont "side. Perfected."
 	done
 
 _SilphCo7FRivalDefeatedText::
-	text "Oh ho!"
-	line "So, you are ready"
-	cont "for BOSS <ROCKET>!"
+	text "Bravo!"
+	line "Look at her go!"
+	cont "My virtuoso."
 	prompt
 
 _SilphCo7FRivalVictoryText::
-	text "How can"
-	line "I put this?"
+	text "Ah, see<...>"
+	line "This won't do."
 
-	para "You're not good"
-	line "enough to play"
-	cont "with us big boys!"
+	para "You need to slake"
+	line "my thirst, doll."
 	prompt
 
 _SilphCo7FRivalGoodLuckToYouText::
-	text "Well, <PLAYER>!"
+	text "So be it."
 
-	para "I'm moving on up"
-	line "and ahead!"
+	para "Play the hero"
+	line "and save them."
 
-	para "By checking my"
-	line "#DEX, I'm"
-	cont "starting to see"
-	cont "what's strong and"
-	cont "how they evolve!"
+	para "But remember:"
+	line "only I see you"
+	cont "for who you are."
+	cont "Since we were"
+	cont "teens, I've known"
+	cont "you were special."
 
-	para "I'm going to the"
-	line "#MON LEAGUE"
-	cont "to boot out the"
-	cont "ELITE FOUR!"
+	para "I will topple"
+	line "the LEAGUE,"
+	cont "become CHAMPION,"
+	cont "and ask of you"
+	cont "one perfect match."
 
-	para "I'll become the"
-	line "world's most"
-	cont "powerful trainer!"
+	para "I lack your"
+	line "pedigree, doll."
+	cont "I'm no hero."
+	cont "I'm no leader."
+	cont "I'm a vicious,"
+	cont "sadistic spider."
 
-	para "<PLAYER>, well"
-	line "good luck to you!"
-	cont "Don't sweat it!"
-	cont "Smell ya!"
+	para "So battle to the"
+	line "end<...>"
+	cont "Where I'll always"
+	cont "be waiting."
+	
+	para "Arms open"
+	line "and fangs sharp."
 	done

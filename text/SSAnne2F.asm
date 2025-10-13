@@ -1,64 +1,88 @@
 _SSAnne2FWaiterText::
-	text "This ship, she is"
+	text "This ship is"
 	line "a luxury liner"
 	cont "for trainers!"
 
 	para "At every port, we"
 	line "hold parties with"
-	cont "invited trainers!"
+	cont "invited experts."
 	done
 
 _SSAnne2FRivalText::
 	text "<RIVAL>: Bonjour!"
-	line "<PLAYER>!"
+	line "Of course you'd"
+	cont "be here. It suits"
+	cont "a posh princess." 
 
-	para "Imagine seeing"
-	line "you here!"
+	para "Did mommy buy"
+	line "you a ticket?"
 
-	para "<PLAYER>, were you"
-	line "really invited?"
+	para "I snuck on board"
+	line "to seek worthy"
+	cont "prey<...>
 
-	para "So how's your"
-	line "#DEX coming?"
+	para "A fool's errand!"
+	line "These wealthy fops"
+	cont "are limp cowards."
 
-	para "I already caught"
-	line "40 kinds, pal!"
+	para "Not like us."
+	line "Have you started"
+	cont "to realize, doll?"
+	cont "We're<...>"
 
-	para "Different kinds"
-	line "are everywhere!"
+	para "<...>the same."
 
-	para "Crawl around in"
-	line "grassy areas!"
+	para "We awaken the"
+	line "dark beauty"
+	cont "of Pokémon power."
+
+	para "Are you bored?"
+	line "I am. Amuse me."
+	cont "Let me taste"
+	cont "your potential."
 	done
 
 _SSAnne2FRivalDefeatedText::
-	text "Humph!"
+	text "Beautiful."
 
-	para "At least you're"
-	line "raising your"
-	cont "#MON!"
+	para "My precocious,"
+	line "worthy rival."
 	prompt
 
 _SSAnne2FRivalVictoryText::
-	text "<PLAYER>!"
-	line "What are you,"
-	cont "seasick?"
+	text "Oh? Silly"
+	line "<PLAYER>! Too"
+	cont "shy to win?"
 
-	para "You should shape"
-	line "up, pal!"
+	para "I need you to"
+	line "challenge me."
+	cont "To do better."
+	cont "<...>silly doll."
 	prompt
 
 _SSAnne2FRivalCutMasterText::
-	text "<RIVAL>: I heard"
-	line "there was a CUT"
-	cont "master on board."
+	text "<RIVAL>: I went"
+	line "to see the"
+	cont "swordmaster."
+	cont "He didn't live up"
+	cont "to his repute."
 
-	para "But, he was just a"
-	line "seasick, old man!"
+	para "But you never"
+	line "disappoint."
 
-	para "But, CUT itself is"
-	line "really useful!"
+	para "You can share"
+	line "them with me."
+	cont "Your thoughts."
+	cont "Your ambitions."
+	
+	para "The principles"
+	line "you would follow."
+	
+	para "<...>for I would"
+	line "twist them."
+	cont "Twist you."
+	cont "To my design."
 
-	para "You should go see"
-	line "him! Smell ya!"
+	para "Until our next"
+	line "date, hero."
 	done

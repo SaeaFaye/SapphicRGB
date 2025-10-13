@@ -1,15 +1,15 @@
 _Route1Youngster1MartSampleText::
-	text "Hi! I work at a"
-	line "#MON MART."
+	text "Hi! I work at"
+	line "POKéMART."
 
-	para "It's a convenient"
-	line "shop, so please"
-	cont "visit us in"
-	cont "VIRIDIAN CITY."
+	para "I have the day off"
+	line "thanks to our"
+	cont "union benefits."
 
-	para "I know, I'll give"
-	line "you a sample!"
-	cont "Here you go!"
+	para "Remember:"
+	line "vote labor!"
+	cont "Have a potion of"
+	cont "SOLIDARITY!"
 	prompt
 
 _SilphCo2FSilphWorkerFReceivedTM36Text::
