@@ -60,3 +60,62 @@ _CeladonHotelAfterBattleText1::
 	para "But I'll drive"
 	line "it away someday!"
 	done
+
+_RivalPostgameDateText::
+	text "<RIVAL>: Ooh!
+	line "You showed!"
+	cont "That's my doll."
+	cont "How's life as"
+	cont "our CHAMPION?"
+
+	para "Honestly, I'm"
+	line "relieved you"
+	cont "took the position."
+	cont "Imagine if I'd"
+	cont "had to pretend"
+	cont "to care about"
+	cont "public policy."
+
+	para "I know my pursuit."
+	line "I'm here to"
+	cont "slay the weak"
+	cont "and challenge"
+	cont "the strong."
+
+	para "<...>speaking of."
+
+	para "I have our"
+	line "reservation."
+
+	para "If we do this,"
+	line "it doesn't mean"
+	cont "we're DATING." 
+	cont "I don't LOVE you."
+	cont "I want you<...>"
+	cont "It's hunger,"
+	cont "not doting."
+
+	para "Ready for a new"
+	line "kind of battle?"
+
+_RivalPostgameDateConfirm::
+	text "Wonderful."
+	line "You're mine, doll."
+	cont "For the night<...>"
+
+_RivalPostgameDateDeny::
+	text "Ha! Play coy."
+	line "I'll be around."
+	cont "I suppose ERIKA"
+	cont "will take your"
+	cont "place, tonight."
+
+_RivalPostgameAfterDate::
+	text "Mm. Hey, you."
+	line "You're LOUD."
+	cont "Who knew<...>"
+
+	para "Take care, doll."
+	line "<...>and thanks."
+	cont "It'd be a lot less"
+	cont "fun without you."

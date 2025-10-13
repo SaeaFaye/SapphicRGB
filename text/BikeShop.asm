@@ -64,6 +64,10 @@ _BikeShopYoungsterTheseBikesAreExpensiveText::
 	text "These BIKEs are"
 	line "cool, but they're"
 	cont "way expensive!"
+
+	para "It's annoying."
+	line "They're not even"
+	cont "made in KANTO!"
 	done
 
 _BikeShopYoungsterCoolBikeText::

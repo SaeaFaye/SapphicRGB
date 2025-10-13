@@ -10,12 +10,23 @@ _CeladonDinerMiddleAgedWomanText::
 	line "weak, so I often"
 	cont "have to go to the"
 	cont "DRUG STORE."
+
+	para "The doctor there"
+	line "says supplements"
+	cont "are no replacement"
+	cont "for real STAT XP."
+
+	para "But who has the"
+	line "time! Gosh!"
 	done
 
 _CeladonDinerMiddleAgedManText::
 	text "Psst! There's a"
 	line "basement under"
 	cont "the GAME CORNER."
+	cont "I've heard the"
+	cont "REBELS use it"
+	cont "to smuggle things!"
 	done
 
 _CeladonDinerFisherText::
@@ -24,6 +35,11 @@ _CeladonDinerFisherText::
 	para "The man at that"
 	line "table lost it all"
 	cont "at the slots."
+	cont "Gambling addiction"
+	cont "is a real menace."
+
+	para "Don't play gacha"
+	line "games, hear me?"
 	done
 
 _CeladonDinerCoinCaseGuyImFlatOutBustedText::
@@ -33,8 +49,14 @@ _CeladonDinerCoinCaseGuyImFlatOutBustedText::
 	line "busted!"
 
 	para "No more slots for"
-	line "me! I'm going"
-	cont "straight!"
+	line "me! No more"
+	cont "microtransactions!"
+
+	para "I just wanted the"
+	line "new banner SSR."
+	cont "But I lost the"
+	cont "pity roll<...>"
+	cont "FOUR TIMES!"
 
 	para "Here! I won't be"
 	line "needing this any-"
@@ -52,9 +74,12 @@ _CeladonDinerCoinCaseGuyReceivedCoinCaseText::
 ;	done
 
 _CeladonDinerCoinCaseGuyWinItBackText::
-	text "I always thought"
-	line "I was going to"
-	cont "win it back<...>"
+	text "One more pull,"
+	line "I told myself<...>"
+	cont "She has a swimsuit"
+	cont "skin! Animated!"
+	cont "Gosh, what a"
+	cont "disaster<...>"
 	done
 
 _CeladonDinerOpenText::

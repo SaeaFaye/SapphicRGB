@@ -1,23 +1,50 @@
 _CeladonMansion3FProgrammerText::
-	text "Me? I'm the"
+	text "I'm the"
 	line "programmer!"
+	cont "We made this game"
+	cont "in assembly."
+	
+	para "It's a good thing"
+	line "nobody in the"
+	cont "future will need"
+	cont "to comprehend"
+	cont "our code<...>"
 	done
 
 _CeladonMansion3FGraphicArtistText::
-	text "I'm the graphic"
-	line "artist!"
-	cont "I drew you!"
+	text "VORTIENE: I'm the"
+	line "author of the"
+	cont "PureRGB hack."
+
+	para "FAYE forked my"
+	line "project to create"
+	cont "this one."
+
+	para "She owes me, huh?"
 	done
 
-_CeladonMansion3FWriterText::
+_CeladonMansion3FWriterText:: ;remember to replace this sprite object
 	text "I wrote the story!"
-	line "Isn't ERIKA cute?"
+	line "<...>yeah."
+	cont "I have some"
+	cont "peculiar tastes."
 
-	para "I like MISTY a"
-	line "lot too!"
+	para "My hope is this"
+	line "obscure fantasy"
+	cont "has made for"
+	cont "warm memories."
 
-	para "Oh, and SABRINA,"
-	line "I like her!"
+	para "If you'd like"
+	line "to learn more"
+	cont "about me or my"
+	cont "creative work,"
+	cont "check the GitHub"
+	cont "repository."
+
+	para "Take care."
+	line "Don't let the"
+	cont "bastards grind"
+	cont "you down!"
 	done
 
 _CeladonMansion3FGameDesignerText::
@@ -39,6 +66,10 @@ _CeladonMansion3FGameDesignerCompletedDexText::
 	line "You completed"
 	cont "your #DEX!"
 	cont "Congratulations!"
+	cont "Let us savor this"
+	cont "small victory"
+	cont "amidst the"
+	cont "entropic sea."
 	cont "<...>@"
 	text_end
 

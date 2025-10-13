@@ -1,46 +1,72 @@
 _AgathaBeforeBattleText::
-	text "I am AGATHA of"
-	line "the ELITE FOUR!"
+	text "AGATHA: Here you"
+	line "are, child."
+	cont "You've come so"
+	cont "far, and yet<...>"
 
-	para "OAK's taken a lot"
-	line "of interest in"
-	cont "you, child!"
+	para "You understand"
+	line "NOTHING."
 
-	para "That old duff was"
-	line "once tough and"
-	cont "handsome! That"
-	cont "was decades ago!"
+	para "Your generation"
+	line "lacks GRATITUDE."
+	cont "You wish to"
+	cont "change the world,"
+	cont "but have you set"
+	cont "your own house"
+	cont "in order?"
+	cont "Are you free"
+	cont "of sin or flaw?"
 
-	para "Now he just wants"
-	line "to fiddle with"
-	cont "his #DEX! He's"
-	cont "wrong! #MON"
-	cont "are for fighting!"
+	para "OAK set you on"
+	line "this mad path."
+	cont "She knows nothing"
+	cont "of reality."
 
-	para "<PLAYER>! I'll show"
-	line "you how a real"
-	cont "trainer fights!"
+	para "Do you know better"
+	line "than those before?"
+	cont "Are you so blind?"
+
+	para "It is not too"
+	line "late for you."
+	cont "Consider joining"
+	cont "the ELITE FOUR."
+	cont "You could replace"
+	cont "LORELEI. Accept"
+	cont "my wisdom<...>
+
+	para "<...>no?"
+	line "Impudence!"
+	cont "You shall learn."
+	cont "Only fools"
+	cont "flaunt the"
+	cont "natural order of"
+	cont "power!"
 	done
 
 _AgathaEndBattleText::
-	text "Oh ho!"
-	line "You're something"
-	cont "special, child!"
+	text "This proves"
+	line "nothing, child."
+	cont "You remain blind."
+	cont "Go on, then."
+	cont "Dismantle the"
+	cont "glory of KANTO."
+	cont "I spit on your"
+	cont "misguided zeal."
 	prompt
 
 _AgathaAfterBattleText::
-	text "You win! I see"
-	line "what the old duff"
-	cont "sees in you now!"
+	text "A surprise awaits"
+	line "you yet."
 
-	para "I have nothing"
-	line "else to say! Run"
-	cont "along now, child!"
+	para "May you weep"
+	line "childish tears"
+	cont "when your naivete"
+	cont "is undone."
 	done
 	
 _LoreleisRoomLoreleiDontRunAwayText::
 _BrunosRoomBrunoDontRunAwayText::
 _AgathasRoomAgathaDontRunAwayText::
-	text "Someone's voice:"
-	line "Don't run away!"
+	text "You can do this."
+	line "No backing down!"
 	done
