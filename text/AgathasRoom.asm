@@ -32,7 +32,7 @@ _AgathaBeforeBattleText::
 	cont "the ELITE FOUR."
 	cont "You could replace"
 	cont "LORELEI. Accept"
-	cont "my wisdom<...>
+	cont "my wisdom<...>"
 
 	para "<...>no?"
 	line "Impudence!"

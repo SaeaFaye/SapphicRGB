@@ -222,8 +222,6 @@ PorygonPicFront::      INCBIN "gfx/pokemon/front/porygon.pic"
 PorygonPicBackSW::     INCBIN "gfx/pokemon/back_sw/porygonb.pic"
 AerodactylPicFront::   INCBIN "gfx/pokemon/front/aerodactyl.pic"
 AerodactylPicBackSW::  INCBIN "gfx/pokemon/back_sw/aerodactylb.pic"
-CharmanderPicFront::   INCBIN "gfx/pokemon/front/charmander.pic"
-CharmanderPicBackSW::  INCBIN "gfx/pokemon/back_sw/charmanderb.pic"
 WartortlePicFront::    INCBIN "gfx/pokemon/front/wartortle.pic"
 WartortlePicBackSW::   INCBIN "gfx/pokemon/back_sw/wartortleb.pic"
 CharizardPicFront::    INCBIN "gfx/pokemon/front/charizard.pic"
@@ -597,6 +595,8 @@ EkansPicFront::       INCBIN "gfx/pokemon/front/ekans.pic"
 EkansPicBackSW::      INCBIN "gfx/pokemon/back_sw/ekansb.pic"
 ParasPicFront::       INCBIN "gfx/pokemon/front/paras.pic"
 ParasPicBackSW::      INCBIN "gfx/pokemon/back_sw/parasb.pic"
+CharmanderPicFront::   INCBIN "gfx/pokemon/front/charmander.pic"
+CharmanderPicBackSW::  INCBIN "gfx/pokemon/back_sw/charmanderb.pic"
 
 SECTION "Pics 13", ROMX
 

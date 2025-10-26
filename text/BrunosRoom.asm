@@ -67,7 +67,7 @@ _BrunoAfterBattleText::
 
 	text "FUCK. LANCE is"
 	line "going to kick my"
-	cont "ass for this<...>
+	cont "ass for this<...>"
 
 	text "Get OUT OF HERE!"
 	done

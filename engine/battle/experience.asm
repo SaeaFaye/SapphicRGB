@@ -123,22 +123,10 @@ GainExperience:
 	ld b, 0
 	ld hl, wPartySpecies
 	add hl, bc
-	ld a, [hl] ; species
-	ld [wd0b5], a
+	ld a, [hl]
+	ld [wCurSpecies], a
 	call GetMonHeader
 	ld d, MAX_LEVEL
-	ld a, [wGameStage] ; Check if player has beat the game
-	and a
-	ld d, 100
-	jr nz, .next1
-	call GetBadgesObtained
-	ld a, [wNumSetBits]
-	ld hl, LevelCapList
-    ld c, a
-    ld b, 0
-    add hl, bc
-    ld d, [hl]
-.next1
 	callfar CalcExperience ; get max exp
 ; compare max exp with current exp
 	ldh a, [hExperience]

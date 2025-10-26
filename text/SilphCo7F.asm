@@ -141,7 +141,7 @@ _SilphCo7FRocket3AfterBattleText::
 
 _SilphCo7FRivalText::
 	text "<RIVAL>: Tsk, tsk,"
-	line "tsk, dear<...>
+	line "tsk, dear<...>"
 
 	para "You kept me"
 	line "waiting so LONG!"

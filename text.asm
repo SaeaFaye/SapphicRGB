@@ -7,7 +7,6 @@ INCLUDE "text/MtMoon1F.asm"
 INCLUDE "text/MtMoonB1F.asm"
 INCLUDE "text/MtMoonB2F.asm"
 INCLUDE "text/SSAnne1F.asm"
-INCLUDE "text/SSAnne2F.asm"
 INCLUDE "text/SSAnne3F.asm"
 INCLUDE "text/SSAnneBow.asm"
 INCLUDE "text/SSAnneCaptainsRoom.asm"
@@ -30,7 +29,6 @@ SECTION "Text 2", ROMX
 
 INCLUDE "text/SilphCo5F_2.asm"
 INCLUDE "text/SilphCo6F.asm"
-INCLUDE "text/SilphCo7F.asm"
 INCLUDE "text/SilphCo8F.asm"
 INCLUDE "text/SilphCo9F.asm"
 INCLUDE "text/SilphCo10F.asm"
@@ -52,8 +50,6 @@ INCLUDE "text/LancesRoom.asm"
 INCLUDE "text/HallOfFame.asm"
 INCLUDE "text/ChampionsRoom.asm"
 INCLUDE "text/LoreleisRoom.asm"
-INCLUDE "text/BrunosRoom.asm"
-INCLUDE "text/AgathasRoom.asm"
 INCLUDE "text/RockTunnelB1F.asm"
 
 
@@ -217,7 +213,6 @@ INCLUDE "text/CeladonMart5F.asm"
 INCLUDE "text/GameCornerPrizeRoom.asm"
 INCLUDE "text/CeladonDiner.asm"
 INCLUDE "text/CeladonChiefHouse.asm"
-INCLUDE "text/CeladonHotel.asm"
 INCLUDE "text/FuchsiaMart.asm"
 INCLUDE "text/FuchsiaBillsGrandpasHouse.asm"
 INCLUDE "text/FuchsiaTreeDeleterHouse.asm"
@@ -293,6 +288,12 @@ INCLUDE "text/OptionsInfoText.asm"
 SECTION "Text 13", ROMX
 INCLUDE "text/PokemonTowerCatacombs.asm"
 INCLUDE "text/ErikAndSara.asm"
+INCLUDE "text/SSAnne2F.asm"
+INCLUDE "text/SilphCo7F.asm"
+INCLUDE "text/CeladonHotel.asm"
+
+SECTION "Text 14", ROMX
+INCLUDE "text/AgathasRoom.asm"
 
 SECTION "Pokédex Text", ROMX
 
@@ -306,5 +307,6 @@ SECTION "Movedex Text", ROMX
 
 INCLUDE "data/moves/movedex_text.asm"
 
-SECTION "Text 14", ROMX
+SECTION "Text 15", ROMX
 INCLUDE "data/text/text_2.asm"
+INCLUDE "text/BrunosRoom.asm"

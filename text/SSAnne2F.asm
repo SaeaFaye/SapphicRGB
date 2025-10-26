@@ -19,7 +19,7 @@ _SSAnne2FRivalText::
 
 	para "I snuck on board"
 	line "to seek worthy"
-	cont "prey<...>
+	cont "prey<...>"
 
 	para "A fool's errand!"
 	line "These wealthy fops"

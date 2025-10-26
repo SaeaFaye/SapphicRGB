@@ -62,7 +62,7 @@ _CeladonHotelAfterBattleText1::
 	done
 
 _RivalPostgameDateText::
-	text "<RIVAL>: Ooh!
+	text "<RIVAL>: Ooh!"
 	line "You showed!"
 	cont "That's my doll."
 	cont "How's life as"
